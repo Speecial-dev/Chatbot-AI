@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "tag": "Selamlama",
+      "patterns": [ "Merhaba", "Selam", "Kolay Gelsin", "Ordamýsýnýz", "Bot ?", "Selamun Aleyküm", "sa" ],
+      "responses": [ "Merhaba", "Selam", "Size Nasýl Yardýmcý Olabilirim" ],
+      "context_set": ""
+    },
+    {
+      "tag": "idrar testi",
+      "patterns": [ "sýk idrara çýkma", "aðrýlý idrar ", "are you on social media", "kötü kokulu idrar" ],
+      "responses": [ "Doktora gitmeden önce idrar testi yaptýrýnýz" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Endoskopi",
+      "patterns": [ "uzun süre karýn aðrýsý","uzun süre geçmeyen ishal", "uzun süre geçmeyen kabýzlýk", "dýþkýda kanama" ],
+      "responses": [ "Hastaneye Gelmeden önce endoskopi yaptýrýnýz" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Hastane",
+      "patterns": [ "hafif ateþ", "Karýnda kramp", "karýn aðrýsý", "baþ aðrýsý", "kas aðrýsý", "bulantý", "kusma", "halsizlik", "boðaz aðrýsý", "boðazda gýdýklanma", "burun akýntýsý", "öksürük"],
+      "responses": [ "Hastaneye Gitmenize Gerek Yoktur" ],
+      "context_set": ""
+    }
+  ]
+}

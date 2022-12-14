@@ -1,0 +1,10 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+
+[main]
+version = 0.2.0
+recent_files = ['..\\..\\.spyder-py3\\temp.py', 'blog\\models.py', 'blog\\templates\\blog\\post_confirm_delete.html', 'blog\\templates\\blog\\post_detail.html', 'blog\\templates\\blog\\post_form.html', 'blog\\templates\\blog\\about.html', 'blog\\templates\\blog\\base.html', 'blog\\templates\\blog\\home.html', 'blog\\views.py', 'blog\\urls.py', 'users\\templates\\users\\login.html', 'blog\\static\\blog\\main.css', 'blog\\templates\\blog\\navbar.html', 'users\\templates\\users\\logout.html', 'users\\templates\\users\\profile.html', 'users\\templates\\users\\register.html', 'django_project\\wsgi.py', 'users\\views.py']
+
